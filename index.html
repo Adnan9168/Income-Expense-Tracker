@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <h1>Income / Expense Tracker</h1>
+    <div class="mainDiv">
+    <div class="inputDataDiv">
+<div class="inpLblBox">
+    <div>
+        <label>Enter your Income / Expense and Press button<label><br>
+        <label id="note">**Enter Expense in negative value</label></div>
+     <label id="lblIncome">Income / Expense:-</label>
+    <input type="text" id="txtIncDes" placeholder="Description">
+    <input type="text" id="txtIncData" placeholder="Your's Income">
+   
+
+<div><button type="button" id="subBtn">Submit</button></div>
+<div class="disCal">
+    <div class="disTotal">
+       <label id="showIncome" class="showTotal">Total Income :-</label><br>
+       <label id="showExpense" class="showTotal">Total Expense :-</label>
+    </div>
+    
+    <div class="CalTotal">
+        <input type="text" id="txtIncom" class=".calinput" placeholder="Total Income" value="" readonly>
+        <input type="text" id="txtExp" class=".calinput" placeholder="Total Expense" value="" readonly>
+    </div>
+    </div>
+</div>
+
+</div>
+
+<div class="totalDiv">
+    <div class="balDiv">
+     <label id="bal">Balance:-</label>
+      <input type="text" id="balTotal" value="" readonly>
+    </div>
+
+<div class="hisDiv">
+    <label id="his">History:-</label><br>
+    <div class="DynInp">
+        
+    </div>
+<div class="clearDiv">
+    <button id="clrBtn">Clear All</button>
+</div>
+
+</div>
+</div>
+</div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFF5;
+}
+h1{
+    text-align: center;
+}
+
+#note{
+    color: red;
+    background-color: white;
+}
+
+
+.mainDiv
+{
+    display: flex;
+    height: 20rem;
+    width: 50rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+} 
+
+.inputDataDiv
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 20rem;
+    width: 27rem;
+    /* border: 1px solid black; */
+    background-color:white;
+    margin-right: -10px;
+    /* padding: 15px 10px 10px; */
+}
+
+
+.inpLblBox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+    margin-top: 20px;
+    
+}
+
+
+.inpLblBox input 
+{
+    padding: 5px;
+    width: 100px; 
+    border: 1px solid #ccc;
+    margin-top: 25px; 
+    /* border-radius: 50%; */
+   
+} 
+
+ .inpLblBox input:first-of-type {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.inpLblBox input:last-of-type {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inpLblBox button
+{
+margin-left: 110px;
+}
+button
+{
+    margin-top: 10px; 
+    width: 150px;
+    background-color: green;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background-color: #FFFFFF;
+    color : black;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+.inpLblBox label
+{
+  
+    flex-basis: 180px; 
+    font-weight: bold;
+    margin-top: 30px; 
+} 
+
+
+.totalDiv
+{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-content: space-between;  */
+    border-left: 1px solid black; 
+    margin-left: 0px; 
+    padding-left: 10px;
+    height: 20rem;
+    width: 23rem; 
+    background-color:white;
+   
+}
+
+.balDiv
+{
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   padding: 15px;
+   /* border-bottom: 1px solid black; */
+    
+}
+.balDiv label
+{
+    margin-top: 3px;
+    font-weight: bold;
+}
+.balDiv input
+{
+    margin-top: -20px;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 215px;
+    border: none;
+    text-align: center;
+    font-size: 3rem;
+    
+    }
+
+.disCal
+{
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    
+}
+
+.disTotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* margin-top: 10px; */
+    margin-left: 120px;
+
+}
+.disTotal div {
+    flex: 1; /* Makes the divs flexible */
+}
+
+.showTotal
+{
+    font-weight: bold; 
+    margin-left: -20px;
+    
+}
+
+#txtExp
+{
+margin-left: 5px;
+}
+
+#txtIncom
+{
+margin-left: 5px;
+}
+
+.CalTotal
+{
+   
+    margin-left: 40px; 
+}
+
+.CalTotal input
+{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    padding: 5px;
+    width: 130px; 
+    border-radius: 10px;
+}
+
+#his
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.hisDiv
+{
+    /* display: flex;
+    padding-top: 10px;
+    border-top: 1px solid black; */
+
+   margin-left: 10px;
+}
+
+.hisDiv input {
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    border-radius: 10px;
+    
+}
+
+.DynInp
+{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 120px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
